@@ -12,7 +12,7 @@ public class TestinfraApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "Spring App is Deployed n Azure";
+		return "demo.html";
 	}
 	
 	public static void main(String[] args) {
